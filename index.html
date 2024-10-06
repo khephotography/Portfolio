@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<title>Portfolio - Katarina Espinosa-Demko</title>
+
+<style>
+
+#bigcontainer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.imagecontainer {
+position: relative;
+}
+
+#portraits {
+height:auto;
+width:75%;
+border-radius: 10px;
+}
+
+#scenery {
+height:auto;
+width:75%;
+border-radius: 10px;
+}
+
+body {
+background-color: black;
+color: white;
+text-align: center;
+}
+
+h1 {
+margin-top: 50px;
+margin-bottom: 50px;
+font-size: 50px;
+}
+
+#portraittext {
+position: absolute;
+bottom: 35%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-weight: bold;
+outline: 2px solid white;
+font-size: 40px;
+text-align: center;
+}
+
+#scenerytext {
+position: absolute;
+top: 35%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-weight: bold;
+outline: 2px solid white;
+font-size: 40px;
+text-align: center;
+}
+
+#portraits:hover, #scenery:hover {
+border: 3px solid white;
+}
+
+#heading {
+justify-content: flex start;
+align-items: center;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Katarina Espinosa-Demko</h1>
+
+
+<div id="bigcontainer">
+
+<div class="imagecontainer">
+<a href="portraits.html">
+	<img id="portraits" src="IMG_2460 (1).jpg">
+	<div id="portraittext">Portraits</div>
+    </a>
+</div>
+
+<div class="imagecontainer">
+<a href="scenery.html">
+	<img id="scenery" src="IMG_9844 (1).jpg">
+	<div id="scenerytext">Scenery</div>
+    </a>
+</div>
+
+</div>
+
+
+</body>
+</html>

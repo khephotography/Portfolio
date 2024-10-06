@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<title>Scenery</title>
+<style>
+
+.horz {
+height: auto;
+width: 100%;
+margin-left: 20%
+}
+
+.vert {
+height: auto;
+width: 80%;
+}
+
+#bigcontainer {
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+
+#horizonatalphotos {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 50%
+}
+
+#verticlephotos {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 50%
+}
+
+body {
+background-color: black;
+color: white;
+text-align: center;
+}
+
+h1 {
+margin-bottom: 50px;
+margin-top: 60px;
+font-size: 50px;
+text-align: center;
+}
+
+#home {
+outline: 2px solid white;
+font-size: 29px;
+color: white;
+text-decoration: none;
+transform-origin: center;
+}
+
+#home:hover {
+transform: scale(1.1);
+font-size: 30px;
+}
+
+#homecontainer {
+position: absolute;
+margin-top: 10px;
+margin-left: 20px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+</style>
+</head>
+<body>
+
+<div id="homecontainer">
+<a id="home" href="index.html">Home</a>
+</div>
+
+<h1>Scenery</h1>
+
+<div id="bigcontainer">
+
+	<div id="horizonatalphotos">
+	<img class="horz" src="sceneryphotos/IMG_9844.jpg"></img>
+	<img class="horz" src="sceneryphotos/20240223_225908.jpg">
+	<img class="horz" src="sceneryphotos/IMG_2493.jpg">
+	<img class="horz" src="sceneryphotos/IMG_3163.jpg">
+	<img class="horz" src="sceneryphotos/IMG_3191.jpg">
+	</div>
+
+	<div id="verticlephotos">
+	<img class="vert" src="sceneryphotos/IMG_1795.jpg">
+	<img class="vert" src="sceneryphotos/IMG_2369.jpg">
+	<img class="vert" src="reid.jpg">
+	</div>
+
+</div>
+
+</body>
+</html>

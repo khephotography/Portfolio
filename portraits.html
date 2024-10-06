@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<title>Portraits</title>
+
+<style>
+
+.horz {
+height: auto;
+width: 100%;
+margin-left: 20%
+}
+
+.vert {
+height: auto;
+width: 80%;
+}
+
+#bigcontainer {
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+
+#horizontalphotos {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 20px;
+width: 50%
+}
+
+#verticlephotos {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+width: 50%
+}
+
+body {
+background-color: black;
+color: white;
+text-align: center;
+}
+
+h1 {
+margin-top: 50px;
+margin-bottom: 50px;
+font-size: 50px;
+}
+
+#home {
+outline: 2px solid white;
+font-size: 29px;
+color: white;
+text-decoration: none;
+transform-origin: center;
+}
+
+#home:hover {
+transform: scale(1.1);
+font-size: 30px;
+}
+
+#homecontainer {
+position: absolute;
+margin-top: 10px;
+margin-left: 20px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+</style>
+</head>
+<body>
+
+<div id="homecontainer">
+<a id="home" href="index.html">Home</a>
+</div>
+
+<h1>Portraits</h1>
+
+<div id="bigcontainer">
+
+	<div id="horizontalphotos">
+	<img class="horz" src="portraitphotos/20240930_201035.jpg">
+	<img class="horz" src="portraitphotos/20240930_200722.jpg">
+	<img class="horz" src="portraitphotos/IMG_2730.jpg">
+	<img class="horz" src="portraitphotos/IMG_3598.jpg">
+	<img class="horz" src="portraitphotos/IMG_2806.jpg">
+	<img class="horz" src="portraitphotos/IMG_2768.jpg">
+	</div>
+
+	<div id="verticlephotos">
+	<img class="vert" src="portraitphotos/IMG_2460.jpg">
+	<img class="vert" src="portraitphotos/IMG_2883.jpg">
+	<img class="vert" src="portraitphotos/IMG_3736[1].jpg">
+	</div>
+
+</div>
+
+</body>
+</html>
